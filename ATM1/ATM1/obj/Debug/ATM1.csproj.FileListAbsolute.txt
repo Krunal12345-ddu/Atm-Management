@@ -1,0 +1,7 @@
+C:\Users\parek\source\repos\ATM1\ATM1\bin\Debug\ATM1.dll.config
+C:\Users\parek\source\repos\ATM1\ATM1\bin\Debug\ATM1.dll
+C:\Users\parek\source\repos\ATM1\ATM1\bin\Debug\ATM1.pdb
+C:\Users\parek\source\repos\ATM1\ATM1\obj\Debug\ATM1.csproj.AssemblyReference.cache
+C:\Users\parek\source\repos\ATM1\ATM1\obj\Debug\ATM1.csproj.CoreCompileInputs.cache
+C:\Users\parek\source\repos\ATM1\ATM1\obj\Debug\ATM1.dll
+C:\Users\parek\source\repos\ATM1\ATM1\obj\Debug\ATM1.pdb

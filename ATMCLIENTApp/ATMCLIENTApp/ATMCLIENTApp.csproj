@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4CA6280A-324A-4A1F-AC45-E1C02381CC06}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ATMCLIENTApp</RootNamespace>
+    <AssemblyName>ATMCLIENTApp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACCOUNT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACCOUNT.Designer.cs">
+      <DependentUpon>ACCOUNT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BALANCE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BALANCE.Designer.cs">
+      <DependentUpon>BALANCE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Connected Services\ATM1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\Transaction\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="DEPOSIT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DEPOSIT.Designer.cs">
+      <DependentUpon>DEPOSIT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CHANGEPIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CHANGEPIN.Designer.cs">
+      <DependentUpon>CHANGEPIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FastCash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FastCash.Designer.cs">
+      <DependentUpon>FastCash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HOME.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HOME.Designer.cs">
+      <DependentUpon>HOME.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MINISTATEMENT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MINISTATEMENT.Designer.cs">
+      <DependentUpon>MINISTATEMENT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SPLASH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SPLASH.Designer.cs">
+      <DependentUpon>SPLASH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WITHDRAW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WITHDRAW.Designer.cs">
+      <DependentUpon>WITHDRAW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ACCOUNT.resx">
+      <DependentUpon>ACCOUNT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BALANCE.resx">
+      <DependentUpon>BALANCE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DEPOSIT.resx">
+      <DependentUpon>DEPOSIT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CHANGEPIN.resx">
+      <DependentUpon>CHANGEPIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FastCash.resx">
+      <DependentUpon>FastCash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HOME.resx">
+      <DependentUpon>HOME.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MINISTATEMENT.resx">
+      <DependentUpon>MINISTATEMENT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SPLASH.resx">
+      <DependentUpon>SPLASH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="WITHDRAW.resx">
+      <DependentUpon>WITHDRAW.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Connected Services\ATM1\service.wsdl" />
+    <None Include="Connected Services\ATM1\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ATM1\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Transaction\service.wsdl" />
+    <None Include="Connected Services\Transaction\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Transaction\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\Transaction\service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\ATM1\" />
+    <WCFMetadataStorage Include="Connected Services\Transaction\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Transaction\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Transaction\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\Transaction\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ATM1\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ATM1\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ATM1\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

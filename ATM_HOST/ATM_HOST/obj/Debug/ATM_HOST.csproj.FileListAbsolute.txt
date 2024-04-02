@@ -1,0 +1,14 @@
+C:\Users\parek\source\repos\ATM_HOST\ATM_HOST\bin\Debug\ATM_HOST.exe.config
+C:\Users\parek\source\repos\ATM_HOST\ATM_HOST\bin\Debug\ATM_HOST.exe
+C:\Users\parek\source\repos\ATM_HOST\ATM_HOST\bin\Debug\ATM_HOST.pdb
+C:\Users\parek\source\repos\ATM_HOST\ATM_HOST\obj\Debug\ATM_HOST.csproj.AssemblyReference.cache
+C:\Users\parek\source\repos\ATM_HOST\ATM_HOST\obj\Debug\ATM_HOST.Properties.Resources.resources
+C:\Users\parek\source\repos\ATM_HOST\ATM_HOST\obj\Debug\ATM_HOST.csproj.GenerateResource.cache
+C:\Users\parek\source\repos\ATM_HOST\ATM_HOST\obj\Debug\ATM_HOST.csproj.CoreCompileInputs.cache
+C:\Users\parek\source\repos\ATM_HOST\ATM_HOST\obj\Debug\ATM_HOST.exe
+C:\Users\parek\source\repos\ATM_HOST\ATM_HOST\obj\Debug\ATM_HOST.pdb
+C:\Users\parek\source\repos\ATM_HOST\ATM_HOST\obj\Debug\ATM_HOST.Form1.resources
+C:\Users\parek\source\repos\ATM_HOST\ATM_HOST\bin\Debug\ATM1.dll
+C:\Users\parek\source\repos\ATM_HOST\ATM_HOST\bin\Debug\ATM1.pdb
+C:\Users\parek\source\repos\ATM_HOST\ATM_HOST\bin\Debug\ATM1.dll.config
+C:\Users\parek\source\repos\ATM_HOST\ATM_HOST\obj\Debug\ATM_HOST.csproj.CopyComplete
